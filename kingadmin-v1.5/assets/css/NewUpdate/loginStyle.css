@@ -1,0 +1,25 @@
+.input-group span
+{
+    border-right:0;
+
+}
+
+.fancy-checkbox
+{
+    text-align: right;
+}
+
+.links ,.fancy-checkbox input[type="checkbox"] + span
+{
+    font-size: 18px !important
+}
+.input-group-addon:last-child
+{
+
+    border-left: 1px solid #ccc !important
+}
+.fancy-checkbox input[type="checkbox"] + span:before
+{
+    margin-left: 5px !important;
+    margin-right: 0 !important;
+}

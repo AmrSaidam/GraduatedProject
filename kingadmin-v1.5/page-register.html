@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 9 ]><html class="ie ie9" lang="en" class="no-js"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="ar" class="no-js" dir="rtl"> <![endif]-->
 <!--[if !(IE)]><!-->
 <html lang="en" class="no-js">
 <!--<![endif]-->
@@ -13,6 +13,7 @@
 	<meta name="description" content="KingAdmin Dashboard">
 	<meta name="author" content="The Develovers">
 	<!-- CSS -->
+	<link href="assets/css/NewUpdate/RegisterStyle.css" rel="newer stylesheet" type="text/css">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
@@ -28,30 +29,74 @@
 	<link rel="shortcut icon" href="assets/ico/favicon.png">
 </head>
 
-<body>
-	<div class="wrapper full-page-wrapper page-auth page-register text-center">
+<body >
+	<div class="wrapper full-page-wrapper page-auth page-register text-center" >
 		<div class="inner-page">
-			<div class="logo">
-				<a href="index-2.html"><img src="assets/img/kingadmin-logo.png" alt="" /></a>
+			<div class="logo" style="margin-top: -20px; margin-bottom: 20px;">
+				<a href="index-2.html"><img src="assets/img/logo/newLogo.png" alt="" height="150px" width="150px" style=""/></a>
 			</div>
-			<button type="button" class="btn btn-auth-facebook"><span>Connect using Facebook</span></button>
-			<div class="separator"><span>OR</span></div>
-			<div class="register-box center-block">
-				<form>
-					<p class="title">Create Your Account</p>
-					<input type="email" placeholder="email" class="form-control">
-					<input type="password" placeholder="password" class="form-control">
-					<input type="password" placeholder="repeat password" class="form-control">
-					<label class="fancy-checkbox">
-						<input type="checkbox">
-						<span>I accept the <a href="#">Terms &amp; Agreements</a></span>
-					</label>
-					<button class="btn btn-custom-primary btn-lg btn-block btn-auth"><i class="fa fa-check-circle"></i> Create Account</button>
+
+			<div class=" register-box center-block container">
+				<form method="" action="" >
+					<p class="title new-title-style" style=""><i class="glyphicon glyphicon-user registered-icon"></i>تسجيل عضوية جديدة </p>
+					<div class="row" dir="rtl">
+						<div class=" col-lg-12">
+							<label class="col-lg-12 new-label-style">
+								اسم المستخدم
+							</label>
+							<input name="userName" class="form-control" type="text" form_id="1">
+						</div>
+
+						<div class=" col-lg-6" style="background-color: aqua">
+							<label class="col-lg-12 new-label-style" >
+								رقم الجوال
+							</label>
+							<input name="phone" class="form-control" type="text"/>
+						</div>
+						<div class="form-group col-lg-6">
+							<label class="col-lg-12 new-label-style">العنوان</label>
+							<input type="text" value="" class="form-control" name="address" form_id="2">
+						</div>
+						
+
+
+						<div class="form-group col-lg-6">
+							<label class="col-lg-12 new-label-style">
+								اعادة الايميل
+							</label>
+							<input name="re_email" class="form-control" type="email">
+						</div>
+							<div class="form-group col-lg-6">
+								<label class="col-lg-12 new-label-style">
+									الايميل
+								</label>
+								<input name="email" class="form-control" type="email">
+							</div>
+
+						<div class="form-group col-lg-6">
+							<label class="col-lg-12 new-label-style">
+								كلمة المرور
+							</label>
+							<input name="pass" class="form-control" type="password">
+						</div>
+						<div class="form-group col-lg-6">
+							<label class="col-lg-12 new-label-style">
+								اعادة كلمة المرور
+							</label>
+							<input name="re_pass" class="form-control" type="password">
+						</div>
+
+
+
+
+					</div>
+
+					<button class="btn btn-custom-primary btn-lg btn-block btn-auth"><i class="fa fa-check-circle"></i> تسجيل</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	<div class="footer">&copy; 2014-2015 The Develovers</div>
+
 	<!-- Javascript -->
 	<script src="assets/js/jquery/jquery-2.1.0.min.js"></script>
 	<script src="assets/js/bootstrap/bootstrap.js"></script>
