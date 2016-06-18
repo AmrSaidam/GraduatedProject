@@ -1,0 +1,21 @@
+th {
+    text-align: center !important;
+    font-size: 15px;
+}
+td,th:last-child
+{
+    border-right: 1px solid #ddd !important
+}
+.main-header h2
+{
+    border-right: 0 !important;
+    border-left: 1px solid #ccc !important;
+    padding-left: 5px !important;
+    margin-left: 3px !important;
+    vertical-align: bottom !important;
+}
+.widget-header
+{
+    font-size: 19px !important;
+    padding-top: 3px !important;
+}
